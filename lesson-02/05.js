@@ -3,10 +3,10 @@ let passport = {
     surname: "Petrov",
 };
 
-console.log(passport);
+console.log(passport.name);
 
 let clone = Object.assign({}, passport);
 
 clone.name = 'Ivan';
 
-console.log(clone);
+console.log(clone.name);
