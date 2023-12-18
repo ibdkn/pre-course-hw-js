@@ -5,7 +5,7 @@ const numbers = [
 ];
 
 for (let i = 0; i < numbers.length; i++) {
-    numbers[i] = numbers[i].filter(number => number % 2 !== 0)
+    numbers[i] = numbers[i].filter(number => number % 2 === 0)
 }
 
 console.log(numbers)
